@@ -1,0 +1,90 @@
+/* &display=swap */
+
+@import url(null.css);
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Taviraj:400,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 813px;
+	margin: 0 auto;
+}
+
+.page {
+	margin: 40px 0px;
+}
+.title__page {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+}
+.title__page2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+}
+.paragraph {
+	max-width: 390px;
+	margin: 0px 0px 48px 0px;
+}
+.point {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+.point li {
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 12px 0px;
+}
+
+.point li::before {
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	background: url("../img/check.svg") no-repeat;
+	margin: 0px 13px -3px -32px;
+}
+
+.button {
+	margin: 0px 0px 40px 0px;
+}
+
+.moreaboutus {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 44px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	padding: 0px 32px;
+	width: 161px;
+	height: 44px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+}
+
+.text {
+	font-family: "Taviraj", serif;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	color: #333333;
+}
+
+.text::after {
+	content: "";
+	display: block;
+	width: 65px;
+	height: 1.5px;
+	background-color: #333333;
+	margin: 8px 0px 0px 0px;
+}
